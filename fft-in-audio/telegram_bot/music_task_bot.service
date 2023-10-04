@@ -1,0 +1,16 @@
+[Unit]
+Description=music_task_bot
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+User=tggritsaev
+WorkingDirectory=/home/tggritsaev/music_task_bot
+ExecStart=bash /home/tggritsaev/music_task_bot/run.sh
+RestartSec=1800
+Restart=always
+Environment="PATH=/home/tggritsaev/.pyenv/shims:/home/tggritsaev/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+ 
+[Install]
+WantedBy=multi-user.target
