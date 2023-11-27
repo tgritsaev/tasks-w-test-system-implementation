@@ -1,5 +1,5 @@
 # dimension_reduction
-Task implementation for the final stage of Moscow School Olympiad. 
+Task implementation for the Moscow School Olympiad final stage. 
 
 Task implementation and code for the polygon system for the final stage of Moscow School Olympiad for school students https://olimpiada.ru/activity/130
 
