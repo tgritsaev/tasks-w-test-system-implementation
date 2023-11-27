@@ -1,4 +1,6 @@
 # tasks-w-test-system-implementation
-I implemented:  
-1. 2 tasks and all polygon files (like tests, checker etc.) for programming contests, you can see an example of a programming contest at the codeforces.com.
-2. 1 Machine Learning task for school students, with telegram bot as a test system
+This repository contains solutions, test system files and problem statements, which I implemented.
+
+1. `collect-the-money` is the task for the HSE school olimpiad in informatics.
+2. `dimension-reduction` is the task for the Moscow Open Olimpiad in informatics.
+3. `fft-in-audio` is the task for school students, interested in Machine Learning and Algorithms.
